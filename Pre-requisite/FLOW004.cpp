@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  int t;
+  cin>>t;
+  while(t--) {
+     int n;
+     cin>>n;
+     int first=n%10;
+     int second=0;
+     while(n>0)
+     {
+      second=n%10;
+      n=n/10;
+     }
+     cout<<(first+second)<<endl;
+  }
+  return 0;
+}
