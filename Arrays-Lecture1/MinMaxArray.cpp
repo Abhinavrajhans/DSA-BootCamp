@@ -24,6 +24,5 @@ int main()
      for(int i=0;i<n;i++)cin>>a[i];
      pair<long long int,long long int> p=give(a,n);
      cout<<p.first<<" "<<p.second;
-
   }
 }
