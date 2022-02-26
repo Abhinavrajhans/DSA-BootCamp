@@ -6,7 +6,7 @@ void swap(int i, int j, int arr[])
 	arr[i] = arr[j];
 	arr[j] = temp;
 }
-void sort(int arr[], int n)
+void Selectionsort(int arr[], int n)
 {
 	for (int i = 0; i < n; i++)
 	{
@@ -37,7 +37,7 @@ int main()
 	cout << "array before sorting" << endl;
 	for (int i = 0; i < n; i++)cout << arr[i] << " ";
 	cout << endl;
-	sort(arr, n);
+	Selectionsort(arr, n);
 	cout << "array before sorting" << endl;
 	for (int i = 0; i < n; i++)cout << arr[i] << " ";
 	cout << endl;
